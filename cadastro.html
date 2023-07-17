@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="cadastro.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="menu">
+                <div id="imgLogoKonoha"></div>
+                <div id="linkLogin">JÁ TEM CONTA? <a href="index.html">ENTRAR </a></div>
+            </div>
+        </header>
+    
+            <main>
+                <div id="ladoEsquerdo">
+                    <div id="imgPain"></div>
+                </div>
+                <div id="centro">
+                    <div id="janelaCadastro">
+                        <div id="form">
+                            <form action="">
+                                <div id="campoNome">
+                                    <label for="nome">NOME :</label> <br>
+                                    <input type="text" id="nome" required placeholder="Nome completo"> 
+                                </div>
+                               
+                                <div id="campoEmail">
+                                    <label for="email">EMAIL :</label> <br>
+                                    <input type="email" id="email" required placeholder="Email"> <br>
+                                </div>
+                               
+                                <div id="campoDataNascimento">
+                                    <label for="dtNasc">DATA DE NASCIMENTO :</label> <br>
+                                    <input type="date" id="dtnasc"> <br>
+                                </div>
+                               
+                                <div id="campoGenero">
+                                    <label for="genero">GÊNERO :</label> <br>
+                                    <label for="homem" name="genero">MASCULINO</label>
+                                    <input type="radio" id="masculino" name="genero">
+                                <label for="mulher">FEMININO</label>
+                                <input type="radio" id="mulher" name="genero"> <br>
+                                </div>
+                                
+                                <div id="botaoCadastrar">
+                                    <button>CADASTRAR</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="ladoDireito">
+                    <div id="imgJiraya"></div>
+                </div>
+            </main>
+    </div>
+    
+</body>
+</html>

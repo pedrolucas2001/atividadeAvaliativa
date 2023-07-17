@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#pagina{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imgs/vila-da-folha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#janelaRecuperarSenha{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
